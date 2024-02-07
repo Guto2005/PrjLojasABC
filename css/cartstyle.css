@@ -1,0 +1,18 @@
+body {
+    font-size: 20px;
+    color: rgb(98, 0, 255);
+    background-color: black;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 800px) and (min-width: 200px){
+    body{
+        background-color: black;
+    }
+    
+    p {
+        font-size: 20px;
+    }
+}
